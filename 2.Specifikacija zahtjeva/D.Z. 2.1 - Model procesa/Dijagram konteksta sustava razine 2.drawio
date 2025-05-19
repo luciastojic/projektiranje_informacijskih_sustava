@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
+  <diagram name="Page-1" id="0B4QA0HJGPUrl5ULAqlk">
+    <mxGraphModel dx="1245" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p5iplGMl-35ro3CwQ0kC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p5iplGMl-35ro3CwQ0kC-1" target="p5iplGMl-35ro3CwQ0kC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p5iplGMl-35ro3CwQ0kC-1" value="P3.1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="10" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p5iplGMl-35ro3CwQ0kC-3" value="Zahtjev za kupnju voća" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="p5iplGMl-35ro3CwQ0kC-1">
+          <mxGeometry x="10" y="40" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p5iplGMl-35ro3CwQ0kC-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p5iplGMl-35ro3CwQ0kC-4" target="p5iplGMl-35ro3CwQ0kC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p5iplGMl-35ro3CwQ0kC-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p5iplGMl-35ro3CwQ0kC-4" target="p5iplGMl-35ro3CwQ0kC-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p5iplGMl-35ro3CwQ0kC-25" value="Provjerava dostupnost" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p5iplGMl-35ro3CwQ0kC-24">
+          <mxGeometry x="-0.5176" y="1" relative="1" as="geometry">
+            <mxPoint x="39" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5iplGMl-35ro3CwQ0kC-4" value="P3.2" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="150" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p5iplGMl-35ro3CwQ0kC-5" value="Provjera dostupnosti voća&lt;div&gt;&amp;nbsp;i&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;obrada narudžbe&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="p5iplGMl-35ro3CwQ0kC-4">
+          <mxGeometry x="5" y="35" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p5iplGMl-35ro3CwQ0kC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p5iplGMl-35ro3CwQ0kC-7" target="p5iplGMl-35ro3CwQ0kC-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p5iplGMl-35ro3CwQ0kC-7" value="P3.3" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="300" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p5iplGMl-35ro3CwQ0kC-8" value="Izdavanje računa" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="p5iplGMl-35ro3CwQ0kC-7">
+          <mxGeometry x="30" y="40" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p5iplGMl-35ro3CwQ0kC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="p5iplGMl-35ro3CwQ0kC-9" target="p5iplGMl-35ro3CwQ0kC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p5iplGMl-35ro3CwQ0kC-23" value="Dostava voća kupcu" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p5iplGMl-35ro3CwQ0kC-22">
+          <mxGeometry x="-0.5986" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5iplGMl-35ro3CwQ0kC-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="p5iplGMl-35ro3CwQ0kC-9" target="p5iplGMl-35ro3CwQ0kC-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p5iplGMl-35ro3CwQ0kC-29" value="Sprema se zapis o prodanom voću" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p5iplGMl-35ro3CwQ0kC-28">
+          <mxGeometry x="-0.2339" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5iplGMl-35ro3CwQ0kC-9" value="P3.4" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="360" y="440" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p5iplGMl-35ro3CwQ0kC-10" value="Isporuka voća" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="p5iplGMl-35ro3CwQ0kC-9">
+          <mxGeometry x="35" y="40" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p5iplGMl-35ro3CwQ0kC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p5iplGMl-35ro3CwQ0kC-13" target="p5iplGMl-35ro3CwQ0kC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p5iplGMl-35ro3CwQ0kC-18" value="Kupac podnosi zahtjev" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p5iplGMl-35ro3CwQ0kC-17">
+          <mxGeometry x="-0.4727" y="1" relative="1" as="geometry">
+            <mxPoint x="32" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5iplGMl-35ro3CwQ0kC-13" value="KUPAC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p5iplGMl-35ro3CwQ0kC-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p5iplGMl-35ro3CwQ0kC-15" target="p5iplGMl-35ro3CwQ0kC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p5iplGMl-35ro3CwQ0kC-15" value="DJELATNIK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="165" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p5iplGMl-35ro3CwQ0kC-16" value="BAZA&amp;nbsp;&lt;div&gt;PODATAKA&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="715" y="300" width="90" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
