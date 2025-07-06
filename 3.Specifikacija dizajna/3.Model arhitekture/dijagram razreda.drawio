@@ -1,0 +1,128 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.2.0">
+  <diagram name="Page-1" id="cAbChonVTWrMoJn7PrrN">
+    <mxGraphModel dx="1006" dy="1797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;DJELATNIK&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;id&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;ime&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;prezime&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;pozicija&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;kontakt&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;zaprimanjeNarudžbe()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;pregledNarudžbi()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;prijava()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;odjava()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="27.7305779366568" y="-1062.120650463724" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-2" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="20" y="-613.1427518261355" as="geometry" />
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-3" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="20.018621333084866" y="-929.6347346370197" as="geometry" />
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;RAČUN&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;id&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;id_narudzba&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;id_djelatnik&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;datum_izdavanja&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;ukupno&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;nacin_plaćanja&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;izracunajIznos()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;generirajPDF()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="27.7305779366568" y="-628.1206504637239" width="200" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="RiBkSl1JEbBHzERIq-xx-11" target="RiBkSl1JEbBHzERIq-xx-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-6" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="RiBkSl1JEbBHzERIq-xx-5">
+          <mxGeometry x="-0.9044" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-7" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="RiBkSl1JEbBHzERIq-xx-5">
+          <mxGeometry x="0.8146" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="RiBkSl1JEbBHzERIq-xx-11" target="RiBkSl1JEbBHzERIq-xx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-9" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="RiBkSl1JEbBHzERIq-xx-8">
+          <mxGeometry x="-0.7018" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-10" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="RiBkSl1JEbBHzERIq-xx-8">
+          <mxGeometry x="0.7018" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;NARUDŽBA&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;id&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;id_kupac&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_racuna&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;datum&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;status&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;dodajvoće()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;ukloniVoće)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;potvrdiNarudžbu()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="27.7305779366568" y="-832.1206504637239" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;NARUDŽBA_VOĆE&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;id&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;id_narudžba&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;id_voće&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;količina&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;cijena&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;provjeriZalihe()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;ažurirajCijenu()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="587.7305779366568" y="-832.1206504637239" width="190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="RiBkSl1JEbBHzERIq-xx-16" target="RiBkSl1JEbBHzERIq-xx-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="277.7305779366568" y="-682.1206504637239" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-14" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="RiBkSl1JEbBHzERIq-xx-13">
+          <mxGeometry x="-0.7177" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-15" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="RiBkSl1JEbBHzERIq-xx-13">
+          <mxGeometry x="0.7226" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-16" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;DOBAVLJAČ&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;id&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;naziv&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;adresa&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;telefon&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;email&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;isporučiVino()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;ažurirajInformacije()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="317.7305779366568" y="-628.1206504637239" width="190" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="RiBkSl1JEbBHzERIq-xx-22" target="RiBkSl1JEbBHzERIq-xx-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-18" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="RiBkSl1JEbBHzERIq-xx-17">
+          <mxGeometry x="-0.5892" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-19" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="RiBkSl1JEbBHzERIq-xx-17">
+          <mxGeometry x="0.54" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-20" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="604.6362858676414" y="-1049.848151899425" as="geometry" />
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-21" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="220.64701808779728" y="-1070" as="geometry" />
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;ADMINISTRATOR&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;ID&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;ime&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;upravljanjeKupcima()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;upravljanjeDjelatnicima()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;pregledIzvještaja()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="587.7305779366568" y="-1037.120650463724" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-23" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="RiBkSl1JEbBHzERIq-xx-26" target="RiBkSl1JEbBHzERIq-xx-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-24" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="RiBkSl1JEbBHzERIq-xx-23">
+          <mxGeometry x="-0.6841" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-25" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="RiBkSl1JEbBHzERIq-xx-23">
+          <mxGeometry x="0.4609" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-26" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;VOĆE&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;id&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;naziv&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;sorta&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;sezona&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;id_dobavljač&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320.2305779366568" y="-832.1206504637239" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-27" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="RiBkSl1JEbBHzERIq-xx-30" target="RiBkSl1JEbBHzERIq-xx-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-28" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="RiBkSl1JEbBHzERIq-xx-27">
+          <mxGeometry x="-0.7618" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-29" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="RiBkSl1JEbBHzERIq-xx-27">
+          <mxGeometry x="0.684" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RiBkSl1JEbBHzERIq-xx-30" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;KUPAC&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;id&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;naziv&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;adresa&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;telefon&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;email&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;zahtjevZaNarudžbu()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;pregledNarudžbe()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;prijava()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;odjava()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="308.9805779366568" y="-1062.120650463724" width="198.75" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
